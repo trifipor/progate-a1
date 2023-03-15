@@ -11,7 +11,18 @@ body {
 
 /* ====CONFIG CSS END==== */
 
-/* ====MAIN CSS START==== */
+/* ====CONFIG ANIMATION START==== */
+
+@keyframes example {
+    0%   {color: blue;}
+    10%  {color: yellow;}
+    25%  {color: green;}
+    50%  {color: blue;}
+    70%  {color: yellow;}
+    100% {color: green;}
+  }
+
+/* ====CONFIG ANIMATION END==== */
 
 
 
@@ -43,6 +54,8 @@ div .head {
 
 .head span {
     color: rgb(22, 124, 124);
+    animation-name: example;
+    animation-duration: 7s;
 }
 
 .main-head img  {
